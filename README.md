@@ -23,10 +23,12 @@
 
 ## Custom Command Line ##
 
+```bash
 java -jar closure-stylesheets.jar \
     --gss-function-map-provider com.google.common.css.compiler.gssfunctions.CustomGssFunctionMapProvider \
     --output-file [output.css] \
     [input.gss]
+```
 
 ## Credits ##
 
