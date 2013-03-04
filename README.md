@@ -21,6 +21,13 @@
 * test: com.google.common.css.compiler.gssfunctions.CustomGssFunctionMapProviderTest.java
 * test: com.google.common.css.compiler.gssfunctions.CustomGssFunctionsTest.java
 
+## Custom Command Line ##
+
+java -jar closure-stylesheets.jar \
+    --gss-function-map-provider com.google.common.css.compiler.gssfunctions.CustomGssFunctionMapProvider \
+    --output-file [output.css] \
+    [input.gss]
+
 ## Credits ##
 
 https://code.google.com/p/closure-stylesheets/
